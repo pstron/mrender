@@ -1,0 +1,6 @@
+build/
+.cache/
+CMakeCache.txt
+compile_commands.json
+out.ppm
+out.png

@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - -std=c++23
+    - -stdlib=libc++
+    - -Wno-unknown-attributes
+  Compiler: clang++
+
+Index:
+  Background: Build
