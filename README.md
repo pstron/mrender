@@ -1,5 +1,7 @@
 # mrender
 
+[![GitHub License](https://img.shields.io/github/license/pstron/mrender)](LICENSE)
+
 **m**inimal, **m**odern C++ renderer
 
 mrender is an educational ray tracing renderer built from scratch using modern C++23 features. It's designed to be minimal, understandable, and showcases contemporary C++ practices with modules.
