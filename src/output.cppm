@@ -32,9 +32,7 @@ public:
     case OutputType::FrameBuffer:
       try {
         static FrameBuffer fb;
-        fb.clear();
         fb.blit(pixels, size.x, size.y);
-        std::cout << '\n'; // I don't know why but I need this to work
       } catch (const std::exception &e) {
         std::cerr << "[FATAL] " << e.what() << '\n';
       } catch (...) {
